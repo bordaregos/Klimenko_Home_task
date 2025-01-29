@@ -1,0 +1,68 @@
+/* Фон. */
+body {
+    background-image: url(first_bg.jpg);
+    background-repeat:no-repeat;
+    background-size:auto;
+    /* max-width: 1440px; */
+    /* margin: auto; */
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 225, 239);
+    max-width:fit-content;
+    box-shadow: 10px 10px 10px 5px grey, -10px 0 10px gray;
+    margin: 40ch auto;
+    padding: 20px 200px;
+}
+
+
+
+
+/* Параметры div-a. */
+.QR-code {
+    position: relative;
+
+    background-color: aliceblue;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 14px 14px 30px 14px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px 10px rgb(204, 216, 230), -10px 0 10px rgb(204, 216, 230);
+}
+/* Параметры изображения. */
+.QR-code img {
+    width: 100%;
+    border-radius: 15px;
+}
+/* Параметры заголовка. */
+.QR-code h1 {
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: normal;
+    padding: 0 9px;
+}
+/* Параметры параграфа. */
+.QR-code p {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0 19px;
+}
+
+
+
+/* body {
+    background-color: rgb(213, 225, 239);
+    max-width: 1440px;
+    margin: auto;
+} */
