@@ -6,7 +6,7 @@ body {
     /* max-width: 1440px; */
     /* margin: auto; */
 }
-
+/* Второй фон. */
 .background {
     display: flex;
     justify-content: center;
@@ -17,10 +17,6 @@ body {
     margin: 40ch auto;
     padding: 20px 200px;
 }
-
-
-
-
 /* Параметры div-a. */
 .QR-code {
     position: relative;
@@ -58,11 +54,3 @@ body {
     font-style: normal;
     padding: 0 19px;
 }
-
-
-
-/* body {
-    background-color: rgb(213, 225, 239);
-    max-width: 1440px;
-    margin: auto;
-} */
